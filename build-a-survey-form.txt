@@ -1,0 +1,155 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Rainbow6 Operator Survey</title>
+<link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+  <h1 id="title">Rainbow Six Siege Operator Survey</h1>
+  <p id="description"> tell us your favorite operators on attack and defense</p>
+  <form id="survey-form">
+    <fieldset>
+
+       <label for="name-label" id="name-label">Enter Your Name: <input id="name" name="name" type="text" required textarea placeholder="Whats your uplay?"
+       </label>
+
+       <label for="email-label" id="email-label">Enter Your Email: <input id="email" name="email" type="email" required textarea placeholder="Whats your email?" />
+       </label>
+
+        <label for="number-label" id="number-label">Enter Your Number: <input id="number" name="number" type="number" min="0000000000" max="9999999999" textarea placeholder="Whats your discord?" />
+        </label>
+      
+      <label for="dropdown">Who's your favorite defender?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Oryx</option>
+            <option value="2">Jager</option>
+            <option value="3">Vigil</option>
+            <option value="4">Smoke</option>
+          </select>
+        </label>
+
+        </fieldset>
+
+ <h2>What platform are you playing on?</h2>       
+
+       <fieldset>
+        <label for="xbox"><input id="xbox" type="radio" name="platform" class="inline" value="0" /> Xbox</label>
+
+        <label for="playstation"><input id="playstation" type="radio" name="platform" class="inline" value="1" /> PLaystation</label>
+
+        <label for="pc"><input id="pc" type="radio" name="platform" class="inline" value="2" /> PC</label>
+
+      </fieldset>
+
+<h2>What role would you consider yourself?</h2>
+      <label for="entry">
+          <input id="entry" type="checkbox" required name="entry" class="inline"  value="0"/>Entry
+        </label>
+        <label for="support">
+          <input id="support" type="checkbox" required name="support" class="inline" value="1"/> Support
+        </label>
+        <label for="flex">
+          <input id="flex" type="checkbox" required name="flex" class="inline" value="2" /> Flex
+        </label>
+
+       
+       <fieldset>
+        <label for="more-info">Additional Info:
+          <textarea id="more-info" name="more-info" rows="6" cols="30" placeholder="Im good at shooting ma guns"></textarea>
+        </label>
+
+        <input type="submit" id="submit" value="Submit" />
+
+        </fieldset>
+  </form>
+  </form>
+</body>
+
+** end of undefined **
+
+** start of undefined **
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b1b32;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+}
+
+input, textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+** end of undefined **
+
